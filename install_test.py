@@ -2,7 +2,7 @@ import tensorflow as tf
 
 sess = tf.Session()
 
-hello = tf.constant("Hello Pluralsight from Tensorflow")
+hello = tf.constant("Hello dude from Tensorflow")
 print(sess.run(hello))
 
 a = tf.constant(20)
