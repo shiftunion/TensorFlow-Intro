@@ -15,11 +15,11 @@ import matplotlib.animation as animation # import animation support
 
 #  generation some house sizes between 1000 and 3500 (typical sq ft of house)
 num_house = 160
-np.random.seed(42)
+np.random.seed(11)
 house_size = np.random.randint(low=1000, high=3500, size=num_house )
 
-# Generate house prices from house size with a random noise added.
-np.random.seed(42)
+# Generate house prices from house size with a randoms noise added.
+np.random.seed(11)
 house_price = house_size * 100.0 + np.random.randint(low=20000, high=70000, size=num_house)  
 
 # Plot generated house and size 
